@@ -8,6 +8,7 @@ public class exercise3{
         Scanner numInt = new Scanner(System.in);
         System.out.println("Enter one integer number: ");
         num = numInt.nextInt();
+        numInt.close();
 
         for (int i = 0; i < num; i++) {
             for (int n = 1; n < i+2; n++) {

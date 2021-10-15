@@ -8,6 +8,7 @@ public class exercise2 {
             Scanner numInt = new Scanner(System.in);
             System.out.println("Enter the first integer number: ");
             num1 = numInt.nextInt();
+            numInt.close();
 
             System.out.println("Enter the second integer number: ");
             num2 = numInt.nextInt();
